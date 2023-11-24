@@ -15,6 +15,5 @@ public static void Main()
   {
     return (integers.Where(x => x % 2 != 0).Count() == 1) ? 
     integers.Where(x => x % 2 != 0).First() : integers.Where(x => x % 2 == 0).First();
-  
   }
 }
